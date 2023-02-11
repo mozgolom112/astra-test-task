@@ -11,7 +11,6 @@ DirViewer::DirViewer()
     setupTree();
 
     m_filter = new QLineEdit();
-    m_register_sensitivity=nullptr;
     m_register_sensitivity = new QCheckBox();
     m_register_sensitivity->setText("Чуствительность регистра");
 
